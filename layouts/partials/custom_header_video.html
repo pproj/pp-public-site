@@ -1,0 +1,58 @@
+<!-- Not actually a video, but whatever -->
+<div class="slider-wrapper">
+  <ul class="slides-container" id="Interesting id, don't you think? Would be really bad if someone looked at the the JS code...">
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+
+<script>
+     // Marcsello's super high JS skills are incredible really
+     (function(){
+          let images = [
+               'images/slideshow/4.jpg',
+               'images/slideshow/5.jpg',
+               'images/slideshow/0.jpg',
+               'images/slideshow/3.jpg',
+               'images/slideshow/2.jpg',
+               'images/slideshow/1.jpg',
+               'images/slideshow/6.jpg',
+               'images/slideshow/7.jpg',
+               'images/slideshow/8.jpg',
+          ]
+          let carousel = document.getElementById("Interesting id, don't you think? Would be really bad if someone looked at the the JS code...")
+          let i = 0
+          let nextI = 1
+          let slides = carousel.getElementsByTagName('li')
+          let slideA = slides[0]
+          let slideB = slides[1]
+
+          slideA.style.backgroundImage = `url('${images[i]}')`
+
+          setInterval(function() {               
+               // Currently, we are on SlideB
+               // Set SlideA to have the same image as SlideB, then quickly snap back to SlideA
+               slideA.style.backgroundImage = `url('${images[i]}')`
+               carousel.scrollTo({left: 0, behavior: 'instant'});
+
+               // Now let the browser actually do the scrolling we requested above
+               // After it's done, we set SlideB to the next image, and request another scroll, but it should be smooth this time
+               let boundCurrentBackground = `url('${images[nextI]}')` // <- this is needed because we are about to change nextI
+               let boundScrollSize = slideB.offsetLeft
+               requestAnimationFrame(function() {
+                    // I have no idea what this function does, but I hope it does what I expect it to do...
+                    slideB.style.backgroundImage = boundCurrentBackground
+                    carousel.scrollTo({left: boundScrollSize, behavior: 'smooth'});
+               })
+
+               // prepare next indices for the next turn
+               i = nextI // i is actually the next pictureID
+               nextI++ // and nextI is actually the image after it
+               if (nextI >= images.length) {
+                    nextI = 0
+               }
+          }, 5183.22) // <- that's a secret code actually
+
+          decodeURI('%48%61%20%6d%c3%a1%72%20%69%74%74%20%76%61%67%79%6f%6b,%20%74%6f%74%c3%a1%6c%69%73%61%6e%20%6e%65%6d%20%6e%c3%a9%7a%6e%c3%a9%6d%20%6d%65%67%20%61%20%67%69%74%20%72%65%70%c3%b3%6a%c3%a1%74%20%65%6e%6e%65%6b%20%61%7a%20%6f%6c%64%61%6c%6e%61%6b%2e%2e%2e')
+     })()
+</script>

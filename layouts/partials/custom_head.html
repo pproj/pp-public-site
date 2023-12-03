@@ -1,0 +1,123 @@
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<style>
+  div.slider-wrapper {
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    
+    -o-object-fit: cover;
+    object-fit: cover;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    
+    z-index: -100;
+    overflow: hidden;
+  }
+
+  ul.slides-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    list-style-type: none;
+  }
+
+  ul.slides-container > li {
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+    background-position: center;
+    background-size: cover;
+    /* gotta override the theme defaults */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  ul.slides-container::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+
+  /* 
+    restore default lists, I like those more 
+    Sadly, we can not disable this fa-ul thingy, as it is part of the theme
+  */
+  .fa-ul {
+    list-style-type: disc;
+  }
+
+  /* override some vars */
+  :root {
+
+    /* === Cover / Landing area === */
+    --cover-text-color: #111;
+    /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
+    --highlight: #eeed;
+    --highlight-contrast: var(--cover-text-color);
+    /*iverse colors used for :hover */
+    --highlight-inverse: var(--cover-text-color);
+    --highlight-inverse-contrast: white;
+
+    /* visual guard around title and description, when the feature is enabled */
+    --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.6);
+    --cover-title-text-shadow: white 0px 0px 10px;
+
+
+    /* === sticky top/left navigation menus === */
+    --sticky-menu-text-color: #aaf;
+
+
+    /* === Alternating content (post) sections  === */
+    /* Light section - text color */
+    --section-light-text-color: #112;
+    /* Light section - background color */
+    --section-light-bg-color: #ebe8f2;
+
+    /* Dark section - text color */
+    --section-dark-text-color: var(--section-light-bg-color);
+    /* Dark section - background color */
+    --section-dark-bg-color: #223;
+
+    /* Light&Dark section >quote. Supressive color, compared to 'Light section - text color'*/
+    --section-uni-quote: grey;
+    /* Light&Dark section `code` a bit darker than 'Light section - background color' */
+    --section-uni-code-bg-color: #d9d7e0;
+
+    /* === Single pages=== */
+    --single-page-text-color: var(--section-light-text-color);
+    --single-page-bg-color: var(--section-light-bg-color);
+
+    /* === Footer === */
+    --footer-color-background: #335;
+    --footer-color: #bbc7cc;
+
+    /* === Lists === */
+    /* define list element for unnumbered lists, leave empty for default list element */
+    /* we disable this, because the site have some magic js that breaks stuff. */
+    --ul-li-icon: '';
+}
+
+
+</style>
