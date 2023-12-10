@@ -1,10 +1,24 @@
 ---
-title: "Donate pls"
+title: Kontribúció
+header_menu_title: Támogatás
+navigation_menu_title: Támogatás
 weight: 70
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Amennyiben sikerült már mosolyt csalnunk az arcodra a PP kapcsán,
+direkt vagy azon a bizonyos matek bizonyítós módon,
+akkor elértük a célunk!
 
-Donec dapibus posuere tellus at pellentesque. Vestibulum malesuada laoreet pretium. Vivamus congue venenatis metus, id rhoncus metus suscipit ac.
+Ha egy mosolynál többet sikerült leraknuk az asztalra,
+esetleg egy tanúlságos feladatélménnyel gazdagíthattunk,
+akkor minden perce megérte az erőfeszítéseinknek!
 
-Vestibulum finibus nisl quis libero porttitor, et accumsan ante viverra. Nullam diam lacus, viverra sit amet sodales nec, fermentum eu turpis. Aenean sit amet vehicula diam.
+Ha lenne kedved támogatni azt ahogy tovább hekkeljük a fun-t,
+akkor ezt több módon megtehetet:
+
+- eljössz a rendezvényre és jól érzed magad! 🎉
+- a rendezvényen segédkezel valamilyen operatív teendőben 🧹
+- segítesz a szervezőknek valamiben 🖐️
+- meghívsz minket egy kávéra ☕
+- a támogatás gomb boldog útján való áthaladással belopod magad nemcsak a szervezők, de az összes PProjektező szívébe ♥️
+- rendezel egy téli PP-t 🎆

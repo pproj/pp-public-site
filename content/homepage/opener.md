@@ -1,10 +1,10 @@
 ---
-title: "Welcome"
+title: Örülünk, hogy <span class="strikethrough">látunk</span> hekkelhetünk!
+header_menu_title: Köszöntő
+navigation_menu_title: Köszöntő
 weight: 1
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Évről-évre összgyűlünk, hogy közösen alkothassunk, ötletelhessünk és legfőképpen kódolhassunk!
 
-Donec dapibus posuere tellus at pellentesque. Vestibulum malesuada laoreet pretium. Vivamus congue venenatis metus, id rhoncus metus suscipit ac.
-
-Vestibulum finibus nisl quis libero porttitor, et accumsan ante viverra. Nullam diam lacus, viverra sit amet sodales nec, fermentum eu turpis. Aenean sit amet vehicula diam.
+A PP Project egy alkotótábor olyan hekkereknek, akik inákbb a Legót és kevésbé a Jengát szerették.
