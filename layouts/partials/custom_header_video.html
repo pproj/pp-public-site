@@ -29,7 +29,12 @@
 
           slideA.style.backgroundImage = `url('${images[i]}')`
 
-          setInterval(function() {               
+          setInterval(function() {   
+               // There is no point in doing any animation when the user is not seeing it (also sometimes it would break because these pages get suspended)
+               if (document.visibilityState !== 'visible') {
+                    return
+               }
+
                // Currently, we are on SlideB
                // Set SlideA to have the same image as SlideB, then quickly snap back to SlideA
                slideA.style.backgroundImage = `url('${images[i]}')`

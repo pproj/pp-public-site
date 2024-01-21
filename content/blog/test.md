@@ -1,5 +1,6 @@
 ---
 title: "This is a test post"
+publishDate: "2024-01-21"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis erat sed urna bibendum mollis. Praesent at mi pellentesque, venenatis nulla ut, scelerisque nisl. Fusce tincidunt libero non lorem mattis, sollicitudin porta justo lacinia. Praesent et diam at lorem scelerisque faucibus. Vivamus scelerisque condimentum ligula, et malesuada leo interdum et. Vivamus nec magna risus. Vestibulum et convallis tellus, sit amet faucibus quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris mattis eros ante, eu ornare ante feugiat vitae. Phasellus sit amet pulvinar tortor. Proin est dui, laoreet tristique congue eget, molestie vel augue.
 

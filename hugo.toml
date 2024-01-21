@@ -1,7 +1,8 @@
 baseURL = 'https://pproj.net/'
 title = 'PProj'
 theme = 'hugo-scroll'
-IsMultiLingual = true
+IsMultiLingual = false
+defaultContentLanguage = 'hu'
 
 # Theme-specific variables `.Site.Params.myParamName`
 [params]

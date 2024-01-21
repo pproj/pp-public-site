@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+  <main class="content page-template page-{{ .Slug }}">
+    <article class="post page">
+      <header class="post-header">
+        <a class="nav-back" href="{{ "/" | relURL }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ .Site.Title }}</a>
+
+        {{ with .OutputFormats.Get "rss" -}}
+            <a class="rss-icon" href="{{ .Permalink }}"><img src="/rss_icon.svg"> RSS feed</a>
+        {{ end }}
+
+      </header>
+      <section class="list-content">
+        {{ .Content }}
+      </section>
+      <section class="list">
+        {{ range .Pages.GroupByPublishDate "2006" }}
+        <h2>{{ .Key }}</h2>
+        <ul>
+        {{ range .Pages }}
+          <li>
+          {{ time.Format "2006-01-02" .PublishDate }} – <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+        </ul>
+      {{ end }}
+      </section>
+    </article>
+  </main>
+{{ end }}
