@@ -26,13 +26,13 @@ Az első PProj alkalmával a résztvevőkkel közösen egy apróhírdetés felde
 
 Sokszor előfordul, hogy az embernek szüksége van valamire, de nem áll módjában rendszeresen böngészni az apróhírdetés oldalakat. Erre a problémára kellett megoldást tervezni, majd elkészíteni azt.
 
-A résztvevők egy mikroszolgáltatás alapú szoftvert készítettek, egy kis üzenetsorral meghintve. A felhasználók egy webes felületen adhatták meg, hogy mit keresnek majd ha a szoftver talált egy releváns hírdetést, Telegrammon küldött értesítést.
+A résztvevők egy mikroszolgáltatás alapú szoftvert készítettek, egy kis üzenetsorral meghintve. A felhasználók egy webes felületen adhatták meg, hogy mit keresnek majd a szoftver a releváns hírdetéseket, Telegrammon küldte.
 
 #### 2022
 
 A második alkalommal a résztvevők saját kommunikációs protokollt tervezhettek és valósíthattak meg.
 
-Az esemény elején rendelkezésre állt egy rakás USB-Serial adapter és null-modem kábelek, amivel két gépet közvetlenül össze lehetett kötni. A cél minél több gép összekötése és annak a lehetővé tétele, hogy bármelyik gép, bármelyikkel kommunikálni tudjon a "hálózaton".
+Az esemény elején rendelkezésre állt egy rakás USB-Serial adapter és null-modem kábel, így két gépet közvetlenül össze lehetett kötni. A cél minél több gép összekötése és annak a lehetővé tétele, hogy bármelyik gép, bármelyikkel kommunikálni tudjon a "hálózaton".
 
 Így jött létre a LINE (Line Is Not Efficient) protokoll amin az esemény végére még IP csomagokat is sikerült továbbítani, de LINE-natív webszerver is készült.
 
