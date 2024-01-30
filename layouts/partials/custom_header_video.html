@@ -21,6 +21,10 @@
                'images/slideshow/8.jpg',
           ]
           let carousel = document.getElementById("Interesting id, don't you think? Would be really bad if someone looked at the the JS code...")
+
+          // Firefox sometimes keeps the scroll position between reloads, let's tell it not to do this
+          carousel.scrollTo({left: 0, behavior: 'instant'});
+
           let i = 0
           let nextI = 1
           let slides = carousel.getElementsByTagName('li')
