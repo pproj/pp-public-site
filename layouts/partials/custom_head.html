@@ -127,11 +127,34 @@
     --ul-li-icon: '';
   }
 
-  #támogatóink img {
-    width: 200px;
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+  #támogatóink section.post-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em 0;
+  }
+
+  a.sponsorlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    margin: 1%;
+    height: 100px;
+    width: 30%;
+    object-fit: contain;
+  }
+
+  a.sponsorlogo-verylong {
+    width: 40% !important;
+  }
+
+  a.sponsorlogo > img {
+    flex-shrink: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .strikethrough {
@@ -149,7 +172,7 @@
   span#publish-date {
     float: right;
   }
-  
+
   span.strikethrough {
     text-decoration-thickness: 0.1em;
   }
