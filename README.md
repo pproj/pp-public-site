@@ -1,4 +1,4 @@
-# PProj public site
+# PP Projekt public site
 
 Site deployed at http://pproj.net
 
