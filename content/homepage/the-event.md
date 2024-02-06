@@ -12,7 +12,7 @@ Persze nem csak a témában szakadunk ki a mindennapokból. Rendezvényeink szem
 
 ![Csendélet](images/ethernet_csendelet.jpg)
 
-Persze nem csak összeülünk és püföljük a billentyűzetet. Minden évben igyekszünk egyedi feladatot kitalálni, aminek a megoldásán közösen dolgozhattok. A feladat csak az esemény reggelén kerül leleplezésre, így már annak kidolgozása is a csapatmunka része. Tipikusan a rendezvény első pár órája közös tervezéssel telik, majd miután megszületett a (közel) végleges elképzelés, mindenki munkának lát, hogy együtt váltsuk valóra azt.
+Minden évben igyekszünk egyedi feladatot kitalálni, aminek a megoldásán közösen dolgozhattok. A feladat csak az esemény reggelén kerül leleplezésre, így már annak kidolgozása is a csapatmunka része. Tipikusan a rendezvény első pár órája közös tervezéssel telik, majd miután megszületett a (közel) végleges elképzelés, mindenki munkának lát, hogy együtt váltsuk valóra azt.
 
 Emellett a helyszínen, helyi hálózaton biztosítunk infrastruktúrát és erőforrásokat, amire szükség lehet. Hogy pontosan mit, az feladat függő, de általában hardver (szerverek, hálózati eszközök, kábelek, stb.), szoftver (Git, CI/CD megoldás, futtatási környezet, stb.) és tudásforrás (pl.: offline dokumentációk, ha az internet problémás lenne) egyaránt rendelkezésetekre áll valamilyen formában. Mindemellett az étkezés is biztosított.
 
@@ -35,6 +35,8 @@ A második alkalommal a résztvevők saját kommunikációs protokollt tervezhet
 Az esemény elején rendelkezésre állt egy rakás USB-Serial adapter és null-modem kábel, így két gépet közvetlenül össze lehetett kötni. A cél minél több gép összekötése és annak a lehetővé tétele, hogy bármelyik gép, bármelyikkel kommunikálni tudjon a "hálózaton".
 
 Így jött létre a LINE (Line Is Not Efficient) protokoll amin az esemény végére még IP csomagokat is sikerült továbbítani, de LINE-natív webszerver is készült.
+
+![Csendélet](images/soros.jpg)
 
 #### 2023
 

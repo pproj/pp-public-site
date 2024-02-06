@@ -21,11 +21,7 @@ akkor ezt több módon megteheted:
 - A rendezvényen segédkezel valamilyen operatív teendőben. 🧹
 - Segítesz a szervezésben. 🖐️
 - Meghívsz minket egy kávéra. ☕
-- A támogatás gomb boldog útján való áthaladással belopod magad nemcsak a szervezők, de az összes PProjektező szívébe. ♥️
+- {{< ko-fi >}} ❤️
 - Rendezel egy téli PP-t. 🎆
 
-Monetáris hozzájárulásod itt tudod megtenni:
-
-[TODO]
-
-A többi lehetőséggel kapcsolatban keresd a szervezőket!
+A lehetőséggekkel kapcsolatban keresd a szervezőket!
