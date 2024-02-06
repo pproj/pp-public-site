@@ -5,7 +5,7 @@ navigation_menu_title: "Esemény"
 weight: 2
 header_menu: true
 ---
-A PProj (azaz PProjekt, ami a PProjekt rekurzív rövidítése) esemény 2021 kezdetével minden évben megrendezésre kerül.
+A PP Projekt (PProj, PProjekt, ami a PP Projekt rekurzív rövidítése) esemény 2021 kezdetével minden évben megrendezésre kerül.
 Célunk az, hogy az IT különböző területeiről érkező résztvevők közösen alkothassanak valami (számukra) újat, kötöttségek nélkül, pusztán az alkotás öröméért.
 
 Persze nem csak a témában szakadunk ki a mindennapokból. Rendezvényeink személyes részvételűek, melyeket igyekszünk valahol, távol a nagy város zajától, a természet mellett megszervezni. Így ez egy igazi táborozós élmény, azoknak, akik a laptopjuk bekapcsolásával kapcsolódnak ki.
@@ -22,7 +22,7 @@ Egy kis ízelítő, hogy mire számíthatnak a résztvevőink.
 
 #### 2021
 
-Az első PProj alkalmával a résztvevőkkel közösen egy apróhírdetés felderítő szoftver elkészítése volt a cél.
+Az első PP Projekt alkalmával a résztvevőkkel közösen egy apróhírdetés felderítő szoftver elkészítése volt a cél.
 
 Sokszor előfordul, hogy az embernek szüksége van valamire, de nem áll módjában rendszeresen böngészni az apróhírdetés oldalakat. Erre a problémára kellett megoldást tervezni, majd elkészíteni azt.
 

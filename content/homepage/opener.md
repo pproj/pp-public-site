@@ -7,4 +7,4 @@ weight: 1
 
 Évről-évre összgyűlünk, hogy közösen alkothassunk, ötletelhessünk és legfőképpen kódolhassunk!
 
-A PProjekt egy alkotótábor olyan hekkereknek, akik inkább a Legót és kevésbé a Jengát szerették.
+A PP Projekt egy alkotótábor olyan hekkereknek, akik inkább a Legót és kevésbé a Jengát szerették.

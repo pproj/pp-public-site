@@ -9,7 +9,7 @@ header_use_video: true
 header_logo: "images/pp_placeholder_simple.svg"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "PProj"
+header_headline: "PP Projekt"
 header_subheadline: "Alkotótábor <b id='nice-id'>Kódereknek</b>"
 
 # Add a 'Go back to top' item to the navigation menu
