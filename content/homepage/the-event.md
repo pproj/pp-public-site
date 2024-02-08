@@ -59,6 +59,6 @@ Bár néhány csapat közt szoros volt a verseny, a visszajelzések alapján a f
 
 Mivel az esemény még többnyire kísérleti stádiumban van, ezért nem vagyunk magabiztosak abban, hogy széles közönségnek is magas színvonalú élményeket tudunk biztosítani.
 
-Mindemellett szeretnénk a létszámot egy általáunk is kezelhető szinten tartani. Nem állunk készen egy ilyen esemény megszervezésére képlékeny és/vagy nagy számú résztvevő számára.
+Mindemellett szeretnénk a létszámot egy általunk is kezelhető szinten tartani. Nem állunk készen egy ilyen esemény megszervezésére képlékeny és/vagy nagy számú résztvevő számára.
 
 Ezen indokok miatt, a rendezvény jelenleg csak **meghívásos alapon működik**.
