@@ -183,26 +183,54 @@
 
   (function() {
     const vajonHogyKeneBefejezniEztAzAlcimet = [
-      "Kódereknek", "Hackereknek",
-      "Fejlesztőknek", "Mérnököknek",
-      "Hardvereseknek", "IT arcoknak",
-      "Hálózatosoknak", "Bitvadászoknak",
-      "Szoftver szakiknak", "Webfejlesztőknek",
-      "Microservicekkel", "CI/CD-vel",
-      "Kubernetessel", "Sysadminoknak",
-      "Mérnökinformatikusoknak", "Deveknek",
-      "Kockáknak", "IP felett",
-      "Linux felhasználóknak", "Programozóknak",
-      "Krékereknek", "DB Adminoknak",
-      "IT üzemeltetőknek", "Tesztelőknek",
-      "Építőknek", "Számítógépekkel",
-      "Assemblyben", "Ring 0-ban",
-      "Projektvezetőknek", "Szoftver mérnököknek",
-      "Tervezőknek", "Innovátoroknak", 
-      "ARM64-en", "Lokális hálón",
-      "Feltalálóknak", "ahol számítózunk a haverokkal...",
-      "Kenyérpirítókkal", "Kávé tanszformátoroknak",
-      "Típus teoretikusoknak", "Terminátoroknak",
+      // So that I can use random.org or shuf to shuffle this:
+      "Kódereknek",
+      "Deveknek",
+      "Lokális hálón",
+      "ahol számítózunk a haverokkal...",
+      "Kávé tanszformátoroknak",
+      "Építőknek",
+      "Hálózatosoknak",
+      "szerver zajjal",
+      "IP felett",
+      "Krékereknek",
+      "Mérnököknek",
+      "Feltalálóknak",
+      "Hardvereseknek",
+      "pörgő rozsdán",
+      "Hackereknek",
+      "Szoftver mérnököknek",
+      "kenyérpirítókkal",
+      "IT arcoknak",
+      "assemblyben",
+      "Fejlesztőknek",
+      "Mérnökinformatikusoknak",
+      "Bitfaragóknak",
+      "Programozóknak",
+      "a terminálodban",
+      "Szoftver szakiknak",
+      "Microservicekkel",
+      "Linux felhasználóknak",
+      "8 és fél biten",
+      "CI/CD-vel",
+      "Sysadminoknak",
+      "Innovátoroknak",
+      "magas logikai jelszinten",
+      "Tesztelőknek",
+      "Kubernetessel",
+      "a világ végén...",
+      "ARM64-en",
+      "IT üzemeltetőknek",
+      "Tervezőknek",
+      "Bitvadászoknak",
+      "Típus teoretikusoknak",
+      "Webfejlesztőknek",
+      "számítógépekkel",
+      "Kockáknak",
+      "ring 0-ban",
+      "Projektvezetőknek",
+      "Terminátoroknak",
+      "DB Adminoknak",
 
       "undefined", // <- yes, this is intentional
     ]
@@ -210,7 +238,7 @@
       return (x*x)*(3 - 2*x)
     }
 
-    const rollTheTitle = function() {
+    const rollTheSubTitle = function() {
       const secondPart = document.getElementById("nice-id")
       let i = 0
       let steps = 0
@@ -243,9 +271,9 @@
 
     // start rolling when the DOM is finished loading
     if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", rollTheTitle)
+      document.addEventListener("DOMContentLoaded", rollTheSubTitle)
     } else {
-      rollTheTitle()
+      rollTheSubTitle()
     }
  })()
 
