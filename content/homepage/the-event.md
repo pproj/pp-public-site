@@ -10,7 +10,7 @@ Célunk az, hogy az IT különböző területeiről érkező résztvevők közö
 
 Persze nem csak a témában szakadunk ki a mindennapokból. Rendezvényeink személyes részvételűek, melyeket igyekszünk valahol, távol a nagy város zajától, a természet mellett megszervezni. Így ez egy igazi táborozós élmény, azoknak, akik a laptopjuk bekapcsolásával kapcsolódnak ki.
 
-![Csendélet](images/ethernet_csendelet.jpg)
+{{<lazy-img src="images/ethernet_csendelet.jpg" alt="Csendélet">}}
 
 Minden évben igyekszünk egyedi feladatot kitalálni, aminek a megoldásán közösen dolgozhattok. A feladat csak az esemény reggelén kerül leleplezésre, így már annak kidolgozása is a csapatmunka része. Tipikusan a rendezvény első pár órája közös tervezéssel telik, majd miután megszületett a (közel) végleges elképzelés, mindenki munkának lát, hogy együtt váltsuk valóra azt.
 
@@ -36,7 +36,7 @@ Az esemény elején rendelkezésre állt egy rakás USB-Serial adapter és null-
 
 Így jött létre a LINE (Line Is Not Efficient) protokoll amin az esemény végére még IP csomagokat is sikerült továbbítani, de LINE-natív webszerver is készült.
 
-![Csendélet](images/soros.jpg)
+{{<lazy-img src="images/soros.jpg" alt="Csendélet">}}
 
 #### 2023
 
