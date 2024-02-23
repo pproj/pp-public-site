@@ -181,7 +181,7 @@
 
 <script>
 
-  (function(){
+  (function() {
     const vajonHogyKeneBefejezniEztAzAlcimet = [
       "Kódereknek", "Hackereknek",
       "Fejlesztőknek", "Mérnököknek",
@@ -207,38 +207,45 @@
       "undefined", // <- yes, this is intentional
     ]
     const ease = function(x) {
-     return (x*x)*(3 - 2*x)
+      return (x*x)*(3 - 2*x)
     }
 
-    window.onload = function(){
-        const secondPart = document.getElementById("nice-id")
-        let i = 0
-        let steps = 0
+    const rollTheTitle = function() {
+      const secondPart = document.getElementById("nice-id")
+      let i = 0
+      let steps = 0
 
-        const nextTitle = function() {
-          secondPart.innerHTML = vajonHogyKeneBefejezniEztAzAlcimet[i]
-          i++
-          if (i >= vajonHogyKeneBefejezniEztAzAlcimet.length) {
-            i = 0
-          }
-
-          // the most complicated easing function of my life
-          const preRollSteps = 20
-          const preRollDelay = 15
-          const easedRollSteps = 100
-          const finalDelay = 2100
-
-          let nextTimeout = finalDelay
-          if (steps < preRollSteps) {
-            nextTimeout = preRollDelay
-            steps++
-          } else if (steps < (preRollSteps+easedRollSteps)) {
-            nextTimeout = preRollDelay + ease((steps-preRollSteps)/easedRollSteps)*(finalDelay-preRollDelay)
-            steps++
-          }
-          setTimeout(nextTitle, nextTimeout)
+      const nextTitle = function() {
+        secondPart.innerHTML = vajonHogyKeneBefejezniEztAzAlcimet[i]
+        i++
+        if (i >= vajonHogyKeneBefejezniEztAzAlcimet.length) {
+          i = 0
         }
-        nextTitle()
+
+        // the most complicated easing function of my life
+        const preRollSteps = 20
+        const preRollDelay = 15
+        const easedRollSteps = 100
+        const finalDelay = 2100
+
+        let nextTimeout = finalDelay
+        if (steps < preRollSteps) {
+          nextTimeout = preRollDelay
+          steps++
+        } else if (steps < (preRollSteps+easedRollSteps)) {
+          nextTimeout = preRollDelay + ease((steps-preRollSteps)/easedRollSteps)*(finalDelay-preRollDelay)
+          steps++
+        }
+        setTimeout(nextTitle, nextTimeout)
+      }
+      nextTitle()
+    }
+
+    // start rolling when the DOM is finished loading
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", rollTheTitle)
+    } else {
+      rollTheTitle()
     }
  })()
 
