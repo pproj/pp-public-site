@@ -34,7 +34,7 @@
 
           slideA.style.backgroundImage = `url('${images[i]}')`
 
-          setInterval(function() {   
+          const nextSlide = function() {   
                // There is no point in doing any animation when the user is not seeing it (also sometimes it would break because these pages get suspended)
                if (document.visibilityState !== 'visible') {
                     return
@@ -61,6 +61,11 @@
                if (nextI >= images.length) {
                     nextI = 0
                }
-          }, 5183.22) // <- that's a secret code actually!
+          }
+          
+          window.addEventListener("load", (event) => {
+               setInterval(nextSlide, 5183.22); // <- that number is a secret code actually!
+          });
+          
      })()
 </script>
