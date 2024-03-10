@@ -4,7 +4,7 @@ weight: 10
 header_menu: true
 ---
 
-{{< sponsorlogo src="images/sponsorlogos/vaucloud_long.svg" href="https://mikesweb.site/hunt" quirk="superlong" >}}
+{{< sponsorlogo src="images/sponsorlogos/vaucloud_long.svg" href="https://vau.cloud/" quirk="superlong" >}}
 
 {{< sponsorlogo src="images/sponsorlogos/disappointment-industries.svg" href="https://mikesweb.site/hunt" quirk="verylong" >}}
 
