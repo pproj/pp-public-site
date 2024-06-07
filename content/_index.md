@@ -6,7 +6,7 @@ header_image: ""
 header_use_video: true
 #
 # Optional header logo. CSS: `#blog-logo`, with max-height defined, optimize to prevent scaling
-header_logo: "images/pp_placeholder_simple.svg"
+header_logo: "images/pplogo.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "PP Projekt"
