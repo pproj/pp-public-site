@@ -56,6 +56,8 @@ Terveztek, egyeztettek és csoportosultak: infrastruktúra, frontend, backend é
 A felhasználók címezhetőségétől, a kriptográfiai eljárások utolsó bitjéig terjedt a problématér.
 Ebben az évben már három napot ölelt fel a rendezvény és egy őzike is meglátogatta a társaság kiemelt tagjait.
 
+#### 2025
+
 ???
 
 ---
