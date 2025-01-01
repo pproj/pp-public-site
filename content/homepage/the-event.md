@@ -51,6 +51,11 @@ Bár néhány csapat közt szoros volt a verseny, a visszajelzések alapján a f
 
 #### 2024
 
+A résztvevők megálmodtak egy minden eddiginél jobb kommunikációs platformot, egyedi protokollal és alkalmazásokkal.
+Terveztek, egyeztettek és csoportosultak: infrastruktúra, frontend, backend és kriptográfiai feladatok megoldásához.
+A felhasználók címezhetőségétől, a kriptográfiai eljárások utolsó bitjéig terjedt a problématér.
+Ebben az évben már három napot ölelt fel a rendezvény és egy őzike is meglátogatta a társaság kiemelt tagjait.
+
 ???
 
 ---
