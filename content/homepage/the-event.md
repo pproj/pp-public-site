@@ -26,11 +26,11 @@ Az első PP Projekt alkalmával a résztvevőkkel közösen egy apróhírdetés 
 
 Sokszor előfordul, hogy az embernek szüksége van valamire, de nem áll módjában rendszeresen böngészni az apróhírdetés oldalakat. Erre a problémára kellett megoldást tervezni, majd elkészíteni azt.
 
-A résztvevők egy mikroszolgáltatás alapú szoftvert készítettek, egy kis üzenetsorral meghintve. A felhasználók egy webes felületen adhatták meg, hogy mit keresnek majd a szoftver a releváns hírdetéseket, Telegrammon küldte.
+A résztvevők egy mikroszolgáltatás alapú szoftvert készítettek, egy kis üzenetsorral meghintve. A felhasználók egy webes felületen adhatták meg, hogy mit keresnek majd a szoftver a releváns hírdetésekről Telegram üzenetet küldött.
 
 #### 2022
 
-A második alkalommal a résztvevők saját kommunikációs protokollt tervezhettek és valósíthattak meg.
+A második alkalommal a résztvevők saját vezetékes kommunikációs protokollt tervezhettek és valósíthattak meg.
 
 Az esemény elején rendelkezésre állt egy rakás USB-Serial adapter és null-modem kábel, így két gépet közvetlenül össze lehetett kötni. A cél minél több gép összekötése és annak a lehetővé tétele, hogy bármelyik gép, bármelyikkel kommunikálni tudjon a "hálózaton".
 
@@ -41,20 +41,21 @@ Az esemény elején rendelkezésre állt egy rakás USB-Serial adapter és null-
 #### 2023
 
 2023-ban megpróbáltunk újítani és erősen elrugaszkodtunk a korábbi jellegtől.
-Közös nagy projekt helyett, több kis csapatban zajlódott egyéni munka.
+Közös nagy projekt helyett, több kis csapatban zajlott az egyéni munka.
 Ezzel próbáltunk megoldani, az addigi legmagasabb résztvevő számú rendezvényen, hogy mindenki ki tudja venni a részét.
 
 A csapatoknak egy előre elkészített "jelszó feltörős" feladatra (egy kis csavarral) kellett minél hatékonyabb megoldást kitalálni és ezt implementálni.
-A feladat része volt az is, hogy a csapatoknak egymással is információt kell megosztani, különben nem tudnak haladni. A "feltört jelszavak" után a csapatok pontot kaptak. Így a csapatok összemérhették saját megoldásuk hatékonyságát.
+A feladat része volt az is, hogy a csapatoknak egymással is információt kell megosztani, különben nem tudnak előre jutni. A "feltört jelszavak" után a csapatok pontot kaptak. Így a csapatok összemérhették saját megoldásuk hatékonyságát.
 
-Bár néhány csapat közt szoros volt a verseny, a visszajelzések alapján a feladat verseny jellege vegyes érzelmeket keltett, így a jövőben visszatérünk a kooperatív munkára.
+Bár néhány csapat közt szoros volt a verseny, a visszajelzések alapján a feladat verseny jellege vegyes érzelmeket keltett, így a jövőben visszatértünk a kooperatív munkára.
 
 #### 2024
 
-A résztvevők megálmodtak egy minden eddiginél jobb kommunikációs platformot, egyedi protokollal és alkalmazásokkal.
-Terveztek, egyeztettek és csoportosultak: infrastruktúra, frontend, backend és kriptográfiai feladatok megoldásához.
-A felhasználók címezhetőségétől, a kriptográfiai eljárások utolsó bitjéig terjedt a problématér.
-Ebben az évben már három napot ölelt fel a rendezvény és egy őzike is meglátogatta a társaság kiemelt tagjait.
+Mindannyian használunk valamilyen platformot az egymással való csevegésre, de valljuk be, egyiket sem érezzük igazán tökéletesnek.
+Éppen ezért a résztvevők ez alkalommal megálmodták az új, minden eddiginél jobb kommunikációs platformot, egyedi protokollal és kliensalkalmazásokkal.
+
+Terveztek, egyeztettek és csoportosultak, hogy minden részlet a helyére kerüljön: infrastruktúra, frontend, backend és kriptográfiai feladatok foglalkoztatták az alkotókat. Minden aspektust átgondoltak a felhasználók címezhetőségétől, a kiszolgálók közti adatcserén át a kriptográfiai eljárások utolsó bitjéig.
+Ebben az évben a rendezvény három naposra bővült, és a szakmai eszmecserék mellett egy őzike is megtisztelte jelenlétével a lelkes társaságot.
 
 #### 2025
 
