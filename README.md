@@ -7,7 +7,9 @@ It is not intended to give out any detail about the event.
 
 This is intended to give an idea for outsiders/newcomers on what this event is about, when we are doing PR work.
 
-## magic command for image scaling
+## Image handling
+
+### Scaling
 
 **Please, do this before committing any new image to the repository!**
 
@@ -23,7 +25,13 @@ Do it in batch:
 i=0; for f in *; do convert $f -auto-orient -resize '1920x' -quality 90 -strip $i.jpg; i=$(( $i + 1 )); done
 ```
 
-**Note:** `-auto-orient` actually prevents imagemagick from rotating the image around.
+**Note:** `-auto-orient` actually prevents imagemagick from rotating the image around. But it's pretty random.
+
+### Shuffle
+
+Shuffle the header images every so often.
+
+see `layouts/partials/custom_header_video.html`
 
 ## Template
 
@@ -32,7 +40,3 @@ This site is based on the [Hugo Scroll](https://themes.gohugo.io/themes/hugo-scr
 ## Sponsor logos
 
 Sponsor logos are fake companies of our friends for now. May change in the future.
-
-## About the secrets
-
-Yes, you are in the right place, keep going. You might want to check out the code snippet that instructed you to go on secret hunt in the first place.
