@@ -13,8 +13,7 @@ Ha egy mosolynál többet sikerült leraknuk az asztalra,
 esetleg egy tanúlságos feladatélménnyel gazdagíthattunk,
 akkor minden perce megérte az erőfeszítéseinknek!
 
-Ha lenne kedved támogatni azt ahogy tovább hekkeljük a fun-t,
-akkor ezt több módon megteheted:
+Ha lenne kedved támogatni azt ahogy tovább hekkeljük a fun-t, a lehetőségek adottak:
 
 - Eljössz a rendezvényre és jól érzed magad! 🎉
 - Hardvert kölcsönzöl nekünk a rendezvény idejére. 🍞
