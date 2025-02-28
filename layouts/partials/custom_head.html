@@ -127,6 +127,12 @@
     --ul-li-icon: '';
   }
 
+  @media only screen and (max-width: 700px) {
+    h2.blog-description {
+      min-height: 4em; /* prevent jumping when text wraps around */
+    }
+  }
+
   #barátaink section.post-content {
     display: flex;
     flex-wrap: wrap;
