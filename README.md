@@ -36,7 +36,3 @@ see `layouts/partials/custom_header_video.html`
 ## Template
 
 This site is based on the [Hugo Scroll](https://themes.gohugo.io/themes/hugo-scroll/) template.
-
-## Sponsor logos
-
-Sponsor logos are fake companies of our friends for now. May change in the future.

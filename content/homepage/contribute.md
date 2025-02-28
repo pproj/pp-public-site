@@ -1,8 +1,8 @@
 ---
 title: Kontribúció
-header_menu_title: Támogatás
+header_menu_title: Kontribúció
 navigation_menu_title: Támogatás
-weight: 70
+weight: 50
 ---
 
 Amennyiben sikerült már mosolyt csalnunk az arcodra a PP kapcsán,

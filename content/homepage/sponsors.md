@@ -1,17 +1,11 @@
 ---
 title: "Támogatóink"
-weight: 10
+weight: 5
 header_menu: true
 ---
 
-{{< sponsorlogo src="images/sponsorlogos/vaucloud_long.svg" href="https://vau.cloud/" quirk="superlong" >}}
+{{< sponsorlogo src="images/sponsorlogos/dummy_500x200_ffffff_ef3e8e.png" href="https://example.com/" quirk="verylong" >}}
 
-{{< sponsorlogo src="images/sponsorlogos/disappointment-industries.svg" href="https://mikesweb.site/hunt" quirk="verylong" >}}
+{{< sponsorlogo src="images/sponsorlogos/dummy_600x100_000000_83a7d1.png" href="https://example.com/" quirk="superlong" >}}
 
-{{< sponsorlogo src="images/sponsorlogos/marcsello-corp.svg" href="https://marcsello.com" >}}
-
-{{< sponsorlogo src="images/sponsorlogos/robotnet.png" href="https://adrianrobotka.com" >}}
-
-{{< sponsorlogo src="images/sponsorlogos/vilagmegallito.png" >}}
-
-{{< sponsorlogo src="images/sponsorlogos/blintflix_blue.svg" href="https://blintflix.io" >}}
+{{< sponsorlogo src="images/sponsorlogos/dummy_600x500_000000_83a7d1.png" href="https://example.com/" quirk="squarey" >}}
