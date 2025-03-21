@@ -6,10 +6,10 @@ header_image: ""
 header_use_video: true
 #
 # Optional header logo. CSS: `#blog-logo`, with max-height defined, optimize to prevent scaling
-header_logo: "images/pplogo.png"
+header_logo: "images/csipsz_logo_v2_fixed.min.svg"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "PP Projekt"
+header_headline: "PP Projekt" # <- this has been hid by css
 header_subheadline: "Alkotótábor <b id='nice-id'>Kódereknek</b>"
 
 # Add a 'Go back to top' item to the navigation menu

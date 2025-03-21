@@ -202,7 +202,19 @@
   }
 
   #blog-logo {
-    max-height: 8em !important;
+    padding: 0.5em 2em 2.5em 2em;
+  }
+
+  @media only screen and (min-width: 440px) and (max-width: 700px) {
+    #blog-logo {
+      max-height: 7em !important;
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+    #blog-logo {
+      max-height: 9em !important;
+    }
   }
 
   .site-menu {
@@ -219,6 +231,10 @@
     border-radius: 20px;
     padding-top: 2em;
     padding-bottom: 2em;
+  }
+
+  #site-head-content > h1.blog-title {
+    display: none;
   }
 
 </style>
