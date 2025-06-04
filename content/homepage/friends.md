@@ -15,3 +15,5 @@ header_menu: false
 {{< sponsorlogo src="images/friendlogos/vilagmegallito.png" >}}
 
 {{< sponsorlogo src="images/friendlogos/blintflix_blue.svg" href="https://blintflix.io" >}}
+
+{{< sponsorlogo src="images/friendlogos/yggdrasil.png" href="https://blog.wazul.moe" >}}
