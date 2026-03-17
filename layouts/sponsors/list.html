@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <main class="content page-template page-{{ .Slug }}">
+
+    <article class="post page">
+      <header class="post-header">
+        <a class="nav-back" href="{{ "/" | relURL }}"><i class="fa fa-chevron-left" aria-hidden="true"></i> {{ .Site.Title }}</a>
+      </header>
+      <section class="post-content">
+        {{ .Content }}
+      </section>
+    </article>
+
+    {{ range .Pages }}
+      <article id="{{ .File }}" class="post">
+          <h2>{{ .Title }}</h2>
+          <section class="this-section-contains-logos">
+              {{ .Content }}
+          </section>
+      </article>
+    {{ end }}
+
+  </main>
+{{ end }}

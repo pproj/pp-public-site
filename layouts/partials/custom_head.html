@@ -142,7 +142,7 @@
     margin: 1em 0;
   }
 
-  #támogatóink section.post-content {
+  section.this-section-contains-logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -157,16 +157,25 @@
 
     margin: 1%;
     height: 100px;
-    width: 30%;
+    width: 100%;
     object-fit: contain;
   }
 
-  a.sponsorlogo-verylong {
-    width: 40% !important;
-  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
 
-  a.sponsorlogo-superlong {
-    width: 50% !important;
+    a.sponsorlogo {
+      width: 30%;
+    }
+
+    a.sponsorlogo-verylong {
+      width: 40% !important;
+    }
+
+    a.sponsorlogo-superlong {
+      width: 50% !important;
+    }
+
   }
 
   a.sponsorlogo-squarey {
@@ -176,7 +185,7 @@
 
   a.sponsorlogo > img {
     flex-shrink: 0;
-    flex-grow: 1;
+    flex-grow: 0; /* <- Wat the hecc is going on?!!?! */
     max-width: 100%;
     max-height: 100%;
   }

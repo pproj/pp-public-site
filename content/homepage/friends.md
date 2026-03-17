@@ -1,7 +1,7 @@
 ---
 title: "Barátaink"
-weight: 70
-header_menu: false
+weight: 40
+header_menu: true
 ---
 
 {{< sponsorlogo src="images/friendlogos/vaucloud_long.svg" href="https://vau.cloud/" quirk="superlong" >}}

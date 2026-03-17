@@ -61,7 +61,7 @@ Ebben az évben a rendezvény három naposra bővült, és a szakmai eszmecseré
 
 Ebben az évben inkább visszatértünk a fizikai tér és közeg felé. Mindenféle protokollokat készítettek a résztvevők, amiket mikrokontrollerek segítségével rádió hullámokon keresztül használtak kommunikáció céljából. A közös helyiség a sok LED villogásban pompázott napokig. A lelkesedés akkor sem tört meg, amikor egyik résztvevőnk bajba jutott autóját vontattuk vissza a szállásra. Még szerencse, hogy pont egy autószerelő háza előtt robbant le.
 
-A megszerzett tudás és élmények mellett mindannyian hazavittünk egy darabot az eseményről, ami új, bütykölésben gazdag projektek kiinduló pontja lehet.
+[Támogatóinkank hála](/sponsors/#2025), a megszerzett tudás és élmények mellett mindannyian hazavittünk egy darabot az eseményről, ami új, bütykölésben gazdag projektek kiinduló pontja lehet.
 
 #### 2026
 
